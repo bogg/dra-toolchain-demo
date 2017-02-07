@@ -16,7 +16,10 @@
         }
     },
     "required": ["demodra-repo_name", "demodra-repo_url"],
-    "form": [
+    "form": [{
+                        "type": "validator",
+                        "url": "/devops/setup/bm-helper/github_helper.html"
+                    },
       {
         "type": "table",
         "columnCount": 3,
